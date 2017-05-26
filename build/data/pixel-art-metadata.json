@@ -565,5 +565,89 @@
 			"width": 75,
 			"height": 35
 		}
+	},
+	"test-tileset": {
+		"date": null,
+		"time": 0,
+		"image": {
+			"path": "images/pixel-art/test-tileset.png",
+			"width": 659,
+			"height": 173
+		},
+		"grid": {
+			"width": 70,
+			"height": 70,
+			"scale": 2
+		},
+		"thumbnail": {
+			"path": "images/pixel-art/test-tileset.png",
+			"x": 145,
+			"y": 134,
+			"width": 35,
+			"height": 35
+		}
+	},
+	"hammer-spider": {
+		"date": null,
+		"time": 0,
+		"image": {
+			"path": "images/pixel-art/hammer-spider.png",
+			"width": 126,
+			"height": 71
+		},
+		"grid": {
+			"width": 70,
+			"height": 70,
+			"scale": 3
+		},
+		"thumbnail": {
+			"path": "images/pixel-art/hammer-spider.png",
+			"x": 9,
+			"y": 33,
+			"width": 24,
+			"height": 24
+		}
+	},
+	"flower-bloom": {
+		"date": null,
+		"time": 0,
+		"image": {
+			"path": "images/pixel-art/flower-bloom.gif",
+			"width": 83,
+			"height": 63
+		},
+		"grid": {
+			"width": 150,
+			"height": 150,
+			"scale": 3
+		},
+		"thumbnail": {
+			"path": "images/pixel-art/flower-bloom.gif",
+			"x": 18,
+			"y": 5,
+			"width": 50,
+			"height": 50
+		}
+	},
+	"mortimer-bot": {
+		"date": null,
+		"time": 0,
+		"image": {
+			"path": "images/pixel-art/mortimer-bot.png",
+			"width": 36,
+			"height": 36
+		},
+		"grid": {
+			"width": 70,
+			"height": 70,
+			"scale": 2
+		},
+		"thumbnail": {
+			"path": "images/pixel-art/mortimer-bot.png",
+			"x": 0,
+			"y": 0,
+			"width": 35,
+			"height": 35
+		}
 	}
 }

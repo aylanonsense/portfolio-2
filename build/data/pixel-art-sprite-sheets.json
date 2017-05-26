@@ -42,61 +42,68 @@
 			"width": 50,
 			"height": 77
 		},
-		"autumn-hair": {
-			"spriteSheet": "pixel-art-1",
-			"x": 230,
-			"y": 230,
-			"width": 75,
-			"height": 75
-		},
-		"spectral-knight": {
+		"rocky-platforms": {
 			"spriteSheet": "pixel-art-1",
 			"x": 395,
 			"y": 130,
 			"width": 35,
 			"height": 75
 		},
+		"spectral-knight": {
+			"spriteSheet": "pixel-art-1",
+			"x": 230,
+			"y": 230,
+			"width": 35,
+			"height": 75
+		},
 		"zergling": {
 			"spriteSheet": "pixel-art-1",
-			"x": 305,
+			"x": 265,
 			"y": 230,
 			"width": 115,
 			"height": 75
 		},
-		"rocky-platforms": {
+		"autumn-hair": {
 			"spriteSheet": "pixel-art-1",
 			"x": 0,
 			"y": 345,
-			"width": 35,
+			"width": 75,
 			"height": 75
 		},
 		"croc": {
 			"spriteSheet": "pixel-art-1",
-			"x": 35,
+			"x": 75,
 			"y": 345,
 			"width": 70,
 			"height": 70
 		},
 		"phantom-dust": {
 			"spriteSheet": "pixel-art-1",
-			"x": 105,
-			"y": 345,
-			"width": 70,
-			"height": 70
-		},
-		"catbug": {
-			"spriteSheet": "pixel-art-1",
-			"x": 175,
+			"x": 145,
 			"y": 345,
 			"width": 70,
 			"height": 70
 		},
 		"pillars": {
 			"spriteSheet": "pixel-art-1",
-			"x": 245,
+			"x": 215,
 			"y": 345,
 			"width": 150,
 			"height": 70
+		},
+		"catbug": {
+			"spriteSheet": "pixel-art-1",
+			"x": 365,
+			"y": 345,
+			"width": 70,
+			"height": 70
+		},
+		"tree-progression": {
+			"spriteSheet": "pixel-art-1",
+			"x": 380,
+			"y": 230,
+			"width": 38,
+			"height": 58
 		},
 		"robo-gladiator": {
 			"spriteSheet": "pixel-art-1",
@@ -105,87 +112,108 @@
 			"width": 78,
 			"height": 58
 		},
-		"tree-progression": {
+		"flower-bloom": {
 			"spriteSheet": "pixel-art-1",
 			"x": 449,
 			"y": 58,
-			"width": 38,
-			"height": 58
+			"width": 50,
+			"height": 50
 		},
 		"deku": {
 			"spriteSheet": "pixel-art-1",
 			"x": 449,
-			"y": 116,
+			"y": 108,
 			"width": 50,
 			"height": 50
 		},
 		"ghus": {
 			"spriteSheet": "pixel-art-1",
 			"x": 449,
-			"y": 166,
+			"y": 158,
 			"width": 50,
 			"height": 50
 		},
 		"rock-blocks": {
 			"spriteSheet": "pixel-art-1",
 			"x": 449,
-			"y": 216,
+			"y": 208,
 			"width": 50,
 			"height": 50
 		},
-		"sprouts": {
+		"mortimer-bot": {
 			"spriteSheet": "pixel-art-1",
 			"x": 449,
-			"y": 266,
-			"width": 75,
-			"height": 35
-		},
-		"blueberry": {
-			"spriteSheet": "pixel-art-1",
-			"x": 487,
-			"y": 58,
+			"y": 258,
 			"width": 35,
 			"height": 35
 		},
-		"happy-tree": {
+		"test-tileset": {
 			"spriteSheet": "pixel-art-1",
-			"x": 449,
-			"y": 301,
+			"x": 484,
+			"y": 258,
 			"width": 35,
 			"height": 35
 		},
 		"froggins": {
 			"spriteSheet": "pixel-art-1",
+			"x": 449,
+			"y": 293,
+			"width": 35,
+			"height": 35
+		},
+		"happy-tree": {
+			"spriteSheet": "pixel-art-1",
 			"x": 484,
-			"y": 301,
+			"y": 293,
+			"width": 35,
+			"height": 35
+		},
+		"sprouts": {
+			"spriteSheet": "pixel-art-1",
+			"x": 449,
+			"y": 328,
+			"width": 75,
+			"height": 35
+		},
+		"blueberry": {
+			"spriteSheet": "pixel-art-1",
+			"x": 449,
+			"y": 363,
 			"width": 35,
 			"height": 35
 		},
 		"gazelle-gladiator": {
 			"spriteSheet": "pixel-art-1",
 			"x": 499,
-			"y": 116,
-			"width": 24,
-			"height": 24
-		},
-		"grapple-girl": {
-			"spriteSheet": "pixel-art-1",
-			"x": 499,
-			"y": 140,
+			"y": 58,
 			"width": 24,
 			"height": 24
 		},
 		"bonsai": {
 			"spriteSheet": "pixel-art-1",
 			"x": 499,
-			"y": 166,
+			"y": 82,
+			"width": 24,
+			"height": 24
+		},
+		"hammer-spider": {
+			"spriteSheet": "pixel-art-1",
+			"x": 499,
+			"y": 108,
 			"width": 24,
 			"height": 24
 		},
 		"tiny-face": {
 			"spriteSheet": "pixel-art-1",
 			"x": 499,
-			"y": 190,
+			"y": 132,
+			"width": 24,
+			"height": 24
+		},
+		"grapple-girl": {
+			"spriteSheet": "pixel-art-1",
+			"x": 499,
+			"y": 158,
 			"width": 24,
 			"height": 24
 		}

@@ -108,6 +108,22 @@
 			"sprouts": {
 				"col": 6,
 				"row": 11
+			},
+			"test-tileset": {
+				"col": 2,
+				"row": 7
+			},
+			"hammer-spider": {
+				"col": 7,
+				"row": 7
+			},
+			"flower-bloom": {
+				"col": 3,
+				"row": 16
+			},
+			"mortimer-bot": {
+				"col": 2,
+				"row": 8
 			}
 		},
 		"numCols": 8,

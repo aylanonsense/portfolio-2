@@ -268,5 +268,45 @@
 		"animated": false,
 		"grid": { "cols": 2, "rows": 1, "scale": 2 },
 		"thumbnail": null
+	},
+	"test-tileset": {
+		"title": null,
+		"description": null,
+		"date": null,
+		"image": "test-tileset.png",
+		"background": "#5ece53",
+		"animated": false,
+		"grid": { "cols": 1, "rows": 1, "scale": 2 },
+		"thumbnail": { "x": 145, "y": 134, "width": 35, "height": 35 }
+	},
+	"hammer-spider": {
+		"title": null,
+		"description": null,
+		"date": null,
+		"image": "hammer-spider.png",
+		"background": "#111111",
+		"animated": false,
+		"grid": { "cols": 1, "rows": 1, "scale": 3 },
+		"thumbnail": { "x": 9, "y": 33, "width": 24, "height": 24 }
+	},
+	"flower-bloom": {
+		"title": null,
+		"description": null,
+		"date": null,
+		"image": "flower-bloom.gif",
+		"background": "#e9f7e3",
+		"animated": true,
+		"grid": { "cols": 2, "rows": 2, "scale": 3 },
+		"thumbnail": { "x": 18, "y": 5, "width": 50, "height": 50 }
+	},
+	"mortimer-bot": {
+		"title": null,
+		"description": null,
+		"date": null,
+		"image": "mortimer-bot.png",
+		"background": "#fbac00",
+		"animated": false,
+		"grid": { "cols": 1, "rows": 1, "scale": 2 },
+		"thumbnail": { "x": 0, "y": 0, "width": 35, "height": 35 }
 	}
 }
