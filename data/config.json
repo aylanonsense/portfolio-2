@@ -1,0 +1,8 @@
+{
+	"grid": {
+		"tileSize": 70,
+		"tileGap": 10,
+		"minColumns": 8,
+		"maxColumns": 8
+	}
+}

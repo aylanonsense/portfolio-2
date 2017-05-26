@@ -1,0 +1,116 @@
+{
+	"8": {
+		"locations": {
+			"autumn-hair": {
+				"col": 0,
+				"row": 0
+			},
+			"deku": {
+				"col": 2,
+				"row": 0
+			},
+			"mail-angel": {
+				"col": 4,
+				"row": 0
+			},
+			"gaudy-ladybug": {
+				"col": 0,
+				"row": 2
+			},
+			"traffic-knight": {
+				"col": 3,
+				"row": 3
+			},
+			"spectral-knight": {
+				"col": 6,
+				"row": 0
+			},
+			"catbug": {
+				"col": 7,
+				"row": 0
+			},
+			"phantom-dust": {
+				"col": 7,
+				"row": 1
+			},
+			"croc": {
+				"col": 3,
+				"row": 2
+			},
+			"zergling": {
+				"col": 0,
+				"row": 5
+			},
+			"blueberry": {
+				"col": 6,
+				"row": 2
+			},
+			"tiny-face": {
+				"col": 7,
+				"row": 2
+			},
+			"bonsai": {
+				"col": 6,
+				"row": 3
+			},
+			"froggins": {
+				"col": 7,
+				"row": 3
+			},
+			"robo-gladiator": {
+				"col": 3,
+				"row": 6
+			},
+			"grapple-girl": {
+				"col": 6,
+				"row": 4
+			},
+			"ghus": {
+				"col": 0,
+				"row": 7
+			},
+			"tree": {
+				"col": 0,
+				"row": 9
+			},
+			"gazelle-gladiator": {
+				"col": 7,
+				"row": 4
+			},
+			"rocky-platforms": {
+				"col": 7,
+				"row": 5
+			},
+			"pillars": {
+				"col": 4,
+				"row": 9
+			},
+			"rock-blocks": {
+				"col": 6,
+				"row": 9
+			},
+			"tree-progression": {
+				"col": 4,
+				"row": 10
+			},
+			"happy-tree": {
+				"col": 6,
+				"row": 5
+			},
+			"monolith": {
+				"col": 4,
+				"row": 13
+			},
+			"alabaster-giant": {
+				"col": 0,
+				"row": 14
+			},
+			"sprouts": {
+				"col": 6,
+				"row": 11
+			}
+		},
+		"numCols": 8,
+		"numRows": 19
+	}
+}

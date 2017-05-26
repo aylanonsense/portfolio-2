@@ -1,0 +1,272 @@
+{
+	"autumn-hair": {
+		"title": "Autumn Hair",
+		"description": null,
+		"date": null,
+		"image": "autumn-hair.png",
+		"background": "#debb37",
+		"animated": false,
+		"grid": { "cols": 2, "rows": 2, "scale": 2 },
+		"thumbnail": { "x": 3, "y": 3, "width": 75, "height": 75 }
+	},
+	"deku": {
+		"title": null,
+		"description": null,
+		"date": null,
+		"image": "deku.png",
+		"background": "#0d0f1c",
+		"animated": false,
+		"grid": { "cols": 2, "rows": 2, "scale": 3 },
+		"thumbnail": { "x": 0, "y": 0, "width": 43, "height": 46 }
+	},
+	"mail-angel": {
+		"title": null,
+		"description": null,
+		"date": null,
+		"image": "mail-angel.gif",
+		"background": "#fffe5e",
+		"animated": true,
+		"grid": { "cols": 2, "rows": 3, "scale": 3 },
+		"thumbnail": { "x": 15, "y": 3, "width": 50, "height": 76 }
+	},
+	"gaudy-ladybug": {
+		"title": null,
+		"description": null,
+		"date": null,
+		"image": "gaudy-ladybug.png",
+		"background": "#5a8751",
+		"animated": false,
+		"grid": { "cols": 3, "rows": 3, "scale": 2 },
+		"thumbnail": null
+	},
+	"traffic-knight": {
+		"title": null,
+		"description": null,
+		"date": null,
+		"image": "traffic-knight.png",
+		"background": "#fffdb3",
+		"animated": false,
+		"grid": { "cols": 3, "rows": 3, "scale": 1 },
+		"thumbnail": { "x": 8, "y": 8, "width": 230, "height": 230 }
+	},
+	"spectral-knight": {
+		"title": null,
+		"description": null,
+		"date": null,
+		"image": "spectral-knight.png",
+		"background": "#2a0039",
+		"animated": false,
+		"grid": { "cols": 1, "rows": 2, "scale": 2 },
+		"thumbnail": { "x": 16, "y": 0, "width": 35, "height": 70 }
+	},
+	"catbug": {
+		"title": null,
+		"description": null,
+		"date": null,
+		"image": "catbug.png",
+		"background": "#f1f0d2",
+		"animated": false,
+		"grid": { "cols": 1, "rows": 1, "scale": 1 },
+		"thumbnail": null
+	},
+	"phantom-dust": {
+		"title": null,
+		"description": null,
+		"date": null,
+		"image": "phantom-dust.png",
+		"background": "#d88869",
+		"animated": false,
+		"grid": { "cols": 1, "rows": 1, "scale": 1 },
+		"thumbnail": { "x": 5, "y": 0, "width": 70, "height": 70 }
+	},
+	"croc": {
+		"title": null,
+		"description": null,
+		"date": null,
+		"image": "croc.gif",
+		"background": "#b8e0e4",
+		"animated": false,
+		"grid": { "cols": 1, "rows": 1, "scale": 1 },
+		"thumbnail": { "x": 19, "y": 3, "width": 70, "height": 70 }
+	},
+	"zergling": {
+		"title": null,
+		"description": null,
+		"date": null,
+		"image": "zergling.gif",
+		"background": "#f4e9d7",
+		"animated": false,
+		"grid": { "cols": 3, "rows": 2, "scale": 2 },
+		"thumbnail": { "x": 12, "y": 12, "width": 115, "height": 75 }
+	},
+	"blueberry": {
+		"title": null,
+		"description": null,
+		"date": null,
+		"image": "blueberry.png",
+		"background": "#fc8778",
+		"animated": false,
+		"grid": { "cols": 1, "rows": 1, "scale": 2 },
+		"thumbnail": { "x": 3, "y": 2, "width": 35, "height": 35 }
+	},
+	"tiny-face": {
+		"title": null,
+		"description": null,
+		"date": null,
+		"image": "tiny-face.png",
+		"background": "#ffffff",
+		"animated": false,
+		"grid": { "cols": 1, "rows": 1, "scale": 3 },
+		"thumbnail": null
+	},
+	"bonsai": {
+		"title": "Bonsai",
+		"description": "A quick sketch of a bonsai tree for a class on pixel art.",
+		"date": "2016/03",
+		"image": "bonsai.png",
+		"background": "#fcff9f",
+		"animated": false,
+		"grid": { "cols": 1, "rows": 1, "scale": 3 },
+		"thumbnail": null
+	},
+	"froggins": {
+		"title": "Froggins",
+		"description": "A quick sketch of a frog for a class on pixel art.",
+		"date": "2016/03",
+		"image": "froggins.png",
+		"background": "#62dbaf",
+		"animated": false,
+		"grid": { "cols": 1, "rows": 1, "scale": 2 },
+		"thumbnail": null
+	},
+	"robo-gladiator": {
+		"title": "Robo Gladiator",
+		"description": "Animation test for a game.",
+		"date": "2016/02",
+		"image": "robo-gladiator.gif",
+		"background": "#f2cbfc",
+		"animated": true,
+		"grid": { "cols": 4, "rows": 3, "scale": 4 },
+		"thumbnail": { "x": 1, "y": 0, "width": 78, "height": 55 }
+	},
+	"grapple-girl": {
+		"title": "Grapple Girl",
+		"description": "Walk cycle test of video game sprite.",
+		"date": "2015/11",
+		"image": "grapple-girl.gif",
+		"background": "#ededd7",
+		"animated": true,
+		"grid": { "cols": 1, "rows": 1, "scale": 3 },
+		"thumbnail": null
+	},
+	"ghus": {
+		"title": "Gh&uuml;s",
+		"description": "Animation of Gh&uuml;s from the Saga comic book series.",
+		"date": "2015/06",
+		"image": "ghus.gif",
+		"background": "#e6f8f9",
+		"animated": true,
+		"grid": { "cols": 2, "rows": 2, "scale": 3 },
+		"thumbnail": null
+	},
+	"tree": {
+		"title": null,
+		"description": "A tree painted pixel by pixel.",
+		"date": "2015/06",
+		"image": "tree.png",
+		"background": "#faf6ea",
+		"animated": false,
+		"grid": { "cols": 4, "rows": 5, "scale": 3 },
+		"thumbnail": { "x": 20, "y": 8, "width": 89, "height": 114 }
+	},
+	"gazelle-gladiator": {
+		"title": "Gazelle Gladiator",
+		"description": "One of my first pieces of pixel art.",
+		"date": "2012",
+		"image": "gazelle-gladiator.gif",
+		"background": "#312526",
+		"animated": true,
+		"grid": { "cols": 1, "rows": 1, "scale": 3 },
+		"thumbnail": { "x": 2, "y": 0, "width": 24, "height": 24 }
+	},
+	"rocky-platforms": {
+		"title": null,
+		"description": null,
+		"date": null,
+		"image": "rocky-platforms.png",
+		"background": "#ffeedd",
+		"animated": false,
+		"grid": { "cols": 1, "rows": 2, "scale": 2 },
+		"thumbnail": { "x": 0, "y": 1, "width": 35, "height": 75 }
+	},
+	"pillars": {
+		"title": null,
+		"description": null,
+		"date": null,
+		"image": "pillars.png",
+		"background": "#ffeedd",
+		"animated": false,
+		"grid": { "cols": 2, "rows": 1, "scale": 1 },
+		"thumbnail": { "x": 0, "y": 0, "width": 150, "height": 67 }
+	},
+	"rock-blocks": {
+		"title": null,
+		"description": null,
+		"date": null,
+		"image": "rock-blocks.png",
+		"background": "#ffeedd",
+		"animated": false,
+		"grid": { "cols": 2, "rows": 2, "scale": 3 },
+		"thumbnail": { "x": 73, "y": 1, "width": 50, "height": 50 }
+	},
+	"tree-progression": {
+		"title": null,
+		"description": null,
+		"date": null,
+		"image": "tree-progression.png",
+		"background": "#ffeedd",
+		"animated": false,
+		"grid": { "cols": 2, "rows": 3, "scale": 4 },
+		"thumbnail": { "x": 214, "y": 16, "width": 21, "height": 53 }
+	},
+	"happy-tree": {
+		"title": null,
+		"description": null,
+		"date": null,
+		"image": "happy-tree.png",
+		"background": "#ffd1a2",
+		"animated": false,
+		"grid": { "cols": 1, "rows": 1, "scale": 2 },
+		"thumbnail": { "x": 6, "y": 1, "width": 35, "height": 35 }
+	},
+	"monolith": {
+		"title": null,
+		"description": null,
+		"date": null,
+		"image": "monolith.png",
+		"background": "#645146",
+		"animated": false,
+		"grid": { "cols": 3, "rows": 3, "scale": 2 },
+		"thumbnail": { "x": 2, "y": 2, "width": 115, "height": 115 }
+	},
+	"alabaster-giant": {
+		"title": null,
+		"description": null,
+		"date": null,
+		"image": "alabaster-giant.png",
+		"background": "#452416",
+		"animated": false,
+		"grid": { "cols": 3, "rows": 5, "scale": 2 },
+		"thumbnail": { "x": 12, "y": 4, "width": 115, "height": 195 }
+	},
+	"sprouts": {
+		"title": null,
+		"description": null,
+		"date": null,
+		"image": "sprouts.png",
+		"background": "#d7ab4f",
+		"animated": false,
+		"grid": { "cols": 2, "rows": 1, "scale": 2 },
+		"thumbnail": null
+	}
+}

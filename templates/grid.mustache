@@ -1,0 +1,8 @@
+<div class="centered-content">
+	<div class="grid" style="width:{{grid.width}}px;height:{{grid.height}}px">
+		{{#entries}}
+			<div class="grid-tile" style="top:{{grid.y}}px;left:{{grid.x}}px;width:{{grid.width}}px;height:{{grid.height}}px;background:{{thumbnail.color}} url('{{thumbnail.image}}') no-repeat {{thumbnail.x}}px {{thumbnail.y}}px;background-size: {{thumbnail.width}}px {{thumbnail.height}}px;{{#thumbnail.pixelated}}image-rendering:pixelated;{{/thumbnail.pixelated}}">
+			</div>
+		{{/entries}}
+	</div>
+</div>
