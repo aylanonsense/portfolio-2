@@ -27,11 +27,10 @@ for (let i = 0; i < numSpriteSheets; i++) {
 }
 let bucket = 0;
 for (let k in pixelArtMetadata) {
-	let scale = pixelArtMetadata[k].grid.scale;
 	spriteSheetBlocks[bucket].push({
 		key: k,
-		w: Math.ceil(pixelArtMetadata[k].grid.width / scale),
-		h: Math.ceil(pixelArtMetadata[k].grid.height / scale)
+		w: pixelArtMetadata[k].spriteSheet.width+2,
+		h: pixelArtMetadata[k].spriteSheet.height+2
 	});
 	bucket = (bucket + 1) % numSpriteSheets;
 }
@@ -63,10 +62,10 @@ for (let i = 0; i < numSpriteSheets; i++) {
 			spriteSheetHeight = Math.max(spriteSheetHeight, y + block.h);
 			pixelArtSpriteSheets.locations[block.key] = {
 				spriteSheet: spriteSheetName,
-				x: x,
-				y: y,
-				width: block.w,
-				height: block.h
+				x: x + 1,
+				y: y + 1,
+				width: block.w - 2,
+				height: block.h - 2
 			};
 		}
 	}
@@ -91,11 +90,14 @@ for (let spriteSheetName in pixelArtSpriteSheets.spriteSheets) {
 		if (spriteSheetName === loc.spriteSheet) {
 			let thumbnail = pixelArtMetadata[k].thumbnail;
 			let image = loadImage(thumbnail.path);
+			let targetX = loc.x + Math.floor((loc.width - thumbnail.width) / 2);
+			let targetY = loc.y + Math.floor((loc.height - thumbnail.height) / 2);
+			ctx.fillStyle = pixelArt[k].background;
+			ctx.fillRect(loc.x - 1, loc.y - 1, loc.width + 2, loc.height + 2);
 			ctx.drawImage(image,
 				thumbnail.x, thumbnail.y,
 				thumbnail.width, thumbnail.height,
-				loc.x + Math.floor((loc.width - thumbnail.width) / 2),
-				loc.y + Math.floor((loc.height - thumbnail.height) / 2),
+				targetX, targetY,
 				thumbnail.width, thumbnail.height);
 		}
 	}

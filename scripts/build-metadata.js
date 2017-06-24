@@ -60,6 +60,13 @@ for (let k in pixelArt) {
 	let imageSize = sizeOf(imagePath);
 	let cols = entry.grid && entry.grid.cols ? entry.grid.cols : 1;
 	let rows = entry.grid && entry.grid.rows ? entry.grid.rows : 1;
+	let thumbnailX = entry.thumbnail && entry.thumbnail.x ? entry.thumbnail.x : 0;
+	let thumbnailY = entry.thumbnail && entry.thumbnail.y ? entry.thumbnail.y : 0;
+	let thumbnailWidth = entry.thumbnail && entry.thumbnail.width ? entry.thumbnail.width : imageSize.width;
+	let thumbnailHeight = entry.thumbnail && entry.thumbnail.height ? entry.thumbnail.height : imageSize.height;
+	let gridWidth = cols * config.grid.tileSize + (cols - 1) * config.grid.tileGap;
+	let gridHeight = rows * config.grid.tileSize + (rows - 1) * config.grid.tileGap;
+	let gridScale = entry.grid && entry.grid.scale ? entry.grid.scale : 1;
 	pixelArtMetadata[k] = {
 		date: dateData.date,
 		time: dateData.time,
@@ -69,16 +76,20 @@ for (let k in pixelArt) {
 			height: imageSize.height
 		},
 		grid: {
-			width: cols * config.grid.tileSize + (cols - 1) * config.grid.tileGap,
-			height: rows * config.grid.tileSize + (rows - 1) * config.grid.tileGap,
-			scale: entry.grid && entry.grid.scale ? entry.grid.scale : 1
+			width: gridWidth,
+			height: gridHeight,
+			scale: gridScale
 		},
 		thumbnail: {
 			path: imagePath,
-			x: entry.thumbnail && entry.thumbnail.x ? entry.thumbnail.x : 0,
-			y: entry.thumbnail && entry.thumbnail.y ? entry.thumbnail.y : 0,
-			width: entry.thumbnail && entry.thumbnail.width ? entry.thumbnail.width : imageSize.width,
-			height: entry.thumbnail && entry.thumbnail.height ? entry.thumbnail.height : imageSize.height
+			x: thumbnailX,
+			y: thumbnailY,
+			width: thumbnailWidth,
+			height: thumbnailHeight
+		},
+		spriteSheet: {
+			width: Math.ceil(gridWidth / gridScale),
+			height: Math.ceil(gridHeight / gridScale)
 		}
 	};
 }

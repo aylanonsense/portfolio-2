@@ -10,6 +10,7 @@ const app = express();
 //serve files
 app.use(express.static(path.join(__dirname, '/build/html')));
 app.use(express.static(path.join(__dirname, '/build')));
+app.use('/images', express.static(path.join(__dirname, '/images')));
 // app.get('/', (req, res) => {
 // 	res.sendFile('/build/pixel-art.html');
 // });

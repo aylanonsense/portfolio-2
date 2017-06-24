@@ -1,217 +1,107 @@
 {
-	"autumn-hair": {
-		"date": null,
-		"time": 0,
+	"nightmare": {
+		"date": "June 2017",
+		"time": 1496289600000,
 		"image": {
-			"path": "images/pixel-art/autumn-hair.png",
-			"width": 81,
-			"height": 81
+			"path": "images/pixel-art/nightmare.gif",
+			"width": 62,
+			"height": 30
 		},
 		"grid": {
-			"width": 150,
-			"height": 150,
-			"scale": 2
+			"width": 230,
+			"height": 70,
+			"scale": 4
 		},
 		"thumbnail": {
-			"path": "images/pixel-art/autumn-hair.png",
+			"path": "images/pixel-art/nightmare.gif",
 			"x": 3,
-			"y": 3,
-			"width": 75,
-			"height": 75
+			"y": 7,
+			"width": 58,
+			"height": 18
+		},
+		"spriteSheet": {
+			"width": 58,
+			"height": 18
 		}
 	},
-	"deku": {
-		"date": null,
-		"time": 0,
+	"palace": {
+		"date": "May 2017",
+		"time": 1493611200000,
 		"image": {
-			"path": "images/pixel-art/deku.png",
-			"width": 43,
-			"height": 52
+			"path": "images/pixel-art/palace.png",
+			"width": 53,
+			"height": 108
 		},
 		"grid": {
 			"width": 150,
-			"height": 150,
+			"height": 310,
 			"scale": 3
 		},
 		"thumbnail": {
-			"path": "images/pixel-art/deku.png",
-			"x": 0,
-			"y": 0,
-			"width": 43,
-			"height": 46
-		}
-	},
-	"mail-angel": {
-		"date": null,
-		"time": 0,
-		"image": {
-			"path": "images/pixel-art/mail-angel.gif",
-			"width": 83,
-			"height": 82
-		},
-		"grid": {
-			"width": 150,
-			"height": 230,
-			"scale": 3
-		},
-		"thumbnail": {
-			"path": "images/pixel-art/mail-angel.gif",
-			"x": 15,
-			"y": 3,
+			"path": "images/pixel-art/palace.png",
+			"x": 2,
+			"y": 1,
 			"width": 50,
-			"height": 76
+			"height": 104
+		},
+		"spriteSheet": {
+			"width": 50,
+			"height": 104
 		}
 	},
-	"gaudy-ladybug": {
-		"date": null,
-		"time": 0,
+	"cherry-scene": {
+		"date": "May 2017",
+		"time": 1493611200000,
 		"image": {
-			"path": "images/pixel-art/gaudy-ladybug.png",
-			"width": 115,
-			"height": 115
+			"path": "images/pixel-art/cherry-scene.png",
+			"width": 16,
+			"height": 35
 		},
 		"grid": {
-			"width": 230,
-			"height": 230,
+			"width": 30,
+			"height": 70,
 			"scale": 2
 		},
 		"thumbnail": {
-			"path": "images/pixel-art/gaudy-ladybug.png",
+			"path": "images/pixel-art/cherry-scene.png",
 			"x": 0,
 			"y": 0,
-			"width": 115,
-			"height": 115
+			"width": 15,
+			"height": 35
+		},
+		"spriteSheet": {
+			"width": 15,
+			"height": 35
 		}
 	},
-	"traffic-knight": {
-		"date": null,
-		"time": 0,
+	"flower-bloom": {
+		"date": "April 2017",
+		"time": 1491019200000,
 		"image": {
-			"path": "images/pixel-art/traffic-knight.png",
-			"width": 253,
-			"height": 253
+			"path": "images/pixel-art/flower-bloom.gif",
+			"width": 83,
+			"height": 63
 		},
 		"grid": {
-			"width": 230,
-			"height": 230,
-			"scale": 1
-		},
-		"thumbnail": {
-			"path": "images/pixel-art/traffic-knight.png",
-			"x": 8,
-			"y": 8,
-			"width": 230,
-			"height": 230
-		}
-	},
-	"spectral-knight": {
-		"date": null,
-		"time": 0,
-		"image": {
-			"path": "images/pixel-art/spectral-knight.png",
-			"width": 70,
-			"height": 70
-		},
-		"grid": {
-			"width": 70,
+			"width": 150,
 			"height": 150,
-			"scale": 2
+			"scale": 3
 		},
 		"thumbnail": {
-			"path": "images/pixel-art/spectral-knight.png",
-			"x": 16,
-			"y": 0,
-			"width": 35,
-			"height": 70
-		}
-	},
-	"catbug": {
-		"date": null,
-		"time": 0,
-		"image": {
-			"path": "images/pixel-art/catbug.png",
-			"width": 65,
-			"height": 65
+			"path": "images/pixel-art/flower-bloom.gif",
+			"x": 18,
+			"y": 5,
+			"width": 50,
+			"height": 50
 		},
-		"grid": {
-			"width": 70,
-			"height": 70,
-			"scale": 1
-		},
-		"thumbnail": {
-			"path": "images/pixel-art/catbug.png",
-			"x": 0,
-			"y": 0,
-			"width": 65,
-			"height": 65
-		}
-	},
-	"phantom-dust": {
-		"date": null,
-		"time": 0,
-		"image": {
-			"path": "images/pixel-art/phantom-dust.png",
-			"width": 80,
-			"height": 70
-		},
-		"grid": {
-			"width": 70,
-			"height": 70,
-			"scale": 1
-		},
-		"thumbnail": {
-			"path": "images/pixel-art/phantom-dust.png",
-			"x": 5,
-			"y": 0,
-			"width": 70,
-			"height": 70
-		}
-	},
-	"croc": {
-		"date": null,
-		"time": 0,
-		"image": {
-			"path": "images/pixel-art/croc.gif",
-			"width": 115,
-			"height": 75
-		},
-		"grid": {
-			"width": 70,
-			"height": 70,
-			"scale": 1
-		},
-		"thumbnail": {
-			"path": "images/pixel-art/croc.gif",
-			"x": 19,
-			"y": 3,
-			"width": 70,
-			"height": 70
-		}
-	},
-	"zergling": {
-		"date": null,
-		"time": 0,
-		"image": {
-			"path": "images/pixel-art/zergling.gif",
-			"width": 141,
-			"height": 92
-		},
-		"grid": {
-			"width": 230,
-			"height": 150,
-			"scale": 2
-		},
-		"thumbnail": {
-			"path": "images/pixel-art/zergling.gif",
-			"x": 12,
-			"y": 12,
-			"width": 115,
-			"height": 75
+		"spriteSheet": {
+			"width": 50,
+			"height": 50
 		}
 	},
 	"blueberry": {
-		"date": null,
-		"time": 0,
+		"date": "April 2017",
+		"time": 1491019200000,
 		"image": {
 			"path": "images/pixel-art/blueberry.png",
 			"width": 40,
@@ -228,27 +118,335 @@
 			"y": 2,
 			"width": 35,
 			"height": 35
+		},
+		"spriteSheet": {
+			"width": 35,
+			"height": 35
 		}
 	},
-	"tiny-face": {
-		"date": null,
-		"time": 0,
+	"alabaster-giant": {
+		"date": "November 2016",
+		"time": 1477972800000,
 		"image": {
-			"path": "images/pixel-art/tiny-face.png",
-			"width": 23,
-			"height": 23
+			"path": "images/pixel-art/alabaster-giant.png",
+			"width": 141,
+			"height": 200
+		},
+		"grid": {
+			"width": 230,
+			"height": 390,
+			"scale": 2
+		},
+		"thumbnail": {
+			"path": "images/pixel-art/alabaster-giant.png",
+			"x": 12,
+			"y": 4,
+			"width": 115,
+			"height": 195
+		},
+		"spriteSheet": {
+			"width": 115,
+			"height": 195
+		}
+	},
+	"phantom-dust": {
+		"date": "September 2016",
+		"time": 1472702400000,
+		"image": {
+			"path": "images/pixel-art/phantom-dust.png",
+			"width": 80,
+			"height": 70
 		},
 		"grid": {
 			"width": 70,
 			"height": 70,
+			"scale": 1
+		},
+		"thumbnail": {
+			"path": "images/pixel-art/phantom-dust.png",
+			"x": 5,
+			"y": 0,
+			"width": 70,
+			"height": 70
+		},
+		"spriteSheet": {
+			"width": 70,
+			"height": 70
+		}
+	},
+	"spectral-armor": {
+		"date": "September 2016",
+		"time": 1472702400000,
+		"image": {
+			"path": "images/pixel-art/spectral-armor.png",
+			"width": 70,
+			"height": 70
+		},
+		"grid": {
+			"width": 70,
+			"height": 150,
+			"scale": 2
+		},
+		"thumbnail": {
+			"path": "images/pixel-art/spectral-armor.png",
+			"x": 16,
+			"y": 0,
+			"width": 35,
+			"height": 70
+		},
+		"spriteSheet": {
+			"width": 35,
+			"height": 75
+		}
+	},
+	"happy-tree": {
+		"date": "September 2016",
+		"time": 1472702400000,
+		"image": {
+			"path": "images/pixel-art/happy-tree.png",
+			"width": 49,
+			"height": 44
+		},
+		"grid": {
+			"width": 70,
+			"height": 70,
+			"scale": 2
+		},
+		"thumbnail": {
+			"path": "images/pixel-art/happy-tree.png",
+			"x": 6,
+			"y": 1,
+			"width": 35,
+			"height": 35
+		},
+		"spriteSheet": {
+			"width": 35,
+			"height": 35
+		}
+	},
+	"gaudy-ladybug": {
+		"date": "August 2016",
+		"time": 1470024000000,
+		"image": {
+			"path": "images/pixel-art/gaudy-ladybug.png",
+			"width": 115,
+			"height": 115
+		},
+		"grid": {
+			"width": 230,
+			"height": 230,
+			"scale": 2
+		},
+		"thumbnail": {
+			"path": "images/pixel-art/gaudy-ladybug.png",
+			"x": 0,
+			"y": 0,
+			"width": 115,
+			"height": 115
+		},
+		"spriteSheet": {
+			"width": 115,
+			"height": 115
+		}
+	},
+	"mortimer": {
+		"date": "August 2016",
+		"time": 1470024000000,
+		"image": {
+			"path": "images/pixel-art/mortimer.png",
+			"width": 36,
+			"height": 36
+		},
+		"grid": {
+			"width": 70,
+			"height": 70,
+			"scale": 2
+		},
+		"thumbnail": {
+			"path": "images/pixel-art/mortimer.png",
+			"x": 0,
+			"y": 0,
+			"width": 35,
+			"height": 35
+		},
+		"spriteSheet": {
+			"width": 35,
+			"height": 35
+		}
+	},
+	"deku": {
+		"date": "August 2016",
+		"time": 1470024000000,
+		"image": {
+			"path": "images/pixel-art/deku.png",
+			"width": 43,
+			"height": 52
+		},
+		"grid": {
+			"width": 150,
+			"height": 150,
 			"scale": 3
 		},
 		"thumbnail": {
-			"path": "images/pixel-art/tiny-face.png",
+			"path": "images/pixel-art/deku.png",
 			"x": 0,
 			"y": 0,
-			"width": 23,
-			"height": 23
+			"width": 43,
+			"height": 46
+		},
+		"spriteSheet": {
+			"width": 50,
+			"height": 50
+		}
+	},
+	"monolith": {
+		"date": "July 2016",
+		"time": 1467345600000,
+		"image": {
+			"path": "images/pixel-art/monolith.png",
+			"width": 120,
+			"height": 120
+		},
+		"grid": {
+			"width": 230,
+			"height": 230,
+			"scale": 2
+		},
+		"thumbnail": {
+			"path": "images/pixel-art/monolith.png",
+			"x": 2,
+			"y": 2,
+			"width": 115,
+			"height": 115
+		},
+		"spriteSheet": {
+			"width": 115,
+			"height": 115
+		}
+	},
+	"autumn-hair": {
+		"date": "July 2016",
+		"time": 1467345600000,
+		"image": {
+			"path": "images/pixel-art/autumn-hair.png",
+			"width": 81,
+			"height": 81
+		},
+		"grid": {
+			"width": 150,
+			"height": 150,
+			"scale": 2
+		},
+		"thumbnail": {
+			"path": "images/pixel-art/autumn-hair.png",
+			"x": 3,
+			"y": 3,
+			"width": 75,
+			"height": 75
+		},
+		"spriteSheet": {
+			"width": 75,
+			"height": 75
+		}
+	},
+	"zergling": {
+		"date": "July 2016",
+		"time": 1467345600000,
+		"image": {
+			"path": "images/pixel-art/zergling.gif",
+			"width": 141,
+			"height": 92
+		},
+		"grid": {
+			"width": 230,
+			"height": 150,
+			"scale": 2
+		},
+		"thumbnail": {
+			"path": "images/pixel-art/zergling.gif",
+			"x": 12,
+			"y": 12,
+			"width": 115,
+			"height": 75
+		},
+		"spriteSheet": {
+			"width": 115,
+			"height": 75
+		}
+	},
+	"mail-angel": {
+		"date": "June 2016",
+		"time": 1464753600000,
+		"image": {
+			"path": "images/pixel-art/mail-angel.gif",
+			"width": 83,
+			"height": 82
+		},
+		"grid": {
+			"width": 150,
+			"height": 230,
+			"scale": 3
+		},
+		"thumbnail": {
+			"path": "images/pixel-art/mail-angel.gif",
+			"x": 15,
+			"y": 3,
+			"width": 50,
+			"height": 76
+		},
+		"spriteSheet": {
+			"width": 50,
+			"height": 77
+		}
+	},
+	"traffic-knight": {
+		"date": "June 2016",
+		"time": 1464753600000,
+		"image": {
+			"path": "images/pixel-art/traffic-knight.png",
+			"width": 253,
+			"height": 253
+		},
+		"grid": {
+			"width": 230,
+			"height": 230,
+			"scale": 1
+		},
+		"thumbnail": {
+			"path": "images/pixel-art/traffic-knight.png",
+			"x": 8,
+			"y": 8,
+			"width": 230,
+			"height": 230
+		},
+		"spriteSheet": {
+			"width": 230,
+			"height": 230
+		}
+	},
+	"croc": {
+		"date": "April 2016",
+		"time": 1459483200000,
+		"image": {
+			"path": "images/pixel-art/croc.gif",
+			"width": 115,
+			"height": 75
+		},
+		"grid": {
+			"width": 70,
+			"height": 70,
+			"scale": 1
+		},
+		"thumbnail": {
+			"path": "images/pixel-art/croc.gif",
+			"x": 19,
+			"y": 3,
+			"width": 70,
+			"height": 70
+		},
+		"spriteSheet": {
+			"width": 70,
+			"height": 70
 		}
 	},
 	"bonsai": {
@@ -270,6 +468,10 @@
 			"y": 0,
 			"width": 19,
 			"height": 18
+		},
+		"spriteSheet": {
+			"width": 24,
+			"height": 24
 		}
 	},
 	"froggins": {
@@ -291,6 +493,10 @@
 			"y": 0,
 			"width": 29,
 			"height": 24
+		},
+		"spriteSheet": {
+			"width": 35,
+			"height": 35
 		}
 	},
 	"robo-gladiator": {
@@ -312,6 +518,135 @@
 			"y": 0,
 			"width": 78,
 			"height": 55
+		},
+		"spriteSheet": {
+			"width": 78,
+			"height": 58
+		}
+	},
+	"catbug": {
+		"date": "2016",
+		"time": 1451606400000,
+		"image": {
+			"path": "images/pixel-art/catbug.png",
+			"width": 65,
+			"height": 65
+		},
+		"grid": {
+			"width": 70,
+			"height": 70,
+			"scale": 1
+		},
+		"thumbnail": {
+			"path": "images/pixel-art/catbug.png",
+			"x": 0,
+			"y": 0,
+			"width": 65,
+			"height": 65
+		},
+		"spriteSheet": {
+			"width": 70,
+			"height": 70
+		}
+	},
+	"sprouts": {
+		"date": "2016",
+		"time": 1451606400000,
+		"image": {
+			"path": "images/pixel-art/sprouts.png",
+			"width": 75,
+			"height": 35
+		},
+		"grid": {
+			"width": 150,
+			"height": 70,
+			"scale": 2
+		},
+		"thumbnail": {
+			"path": "images/pixel-art/sprouts.png",
+			"x": 0,
+			"y": 0,
+			"width": 75,
+			"height": 35
+		},
+		"spriteSheet": {
+			"width": 75,
+			"height": 35
+		}
+	},
+	"test-tileset": {
+		"date": "2016",
+		"time": 1451606400000,
+		"image": {
+			"path": "images/pixel-art/test-tileset.png",
+			"width": 659,
+			"height": 173
+		},
+		"grid": {
+			"width": 70,
+			"height": 70,
+			"scale": 2
+		},
+		"thumbnail": {
+			"path": "images/pixel-art/test-tileset.png",
+			"x": 145,
+			"y": 134,
+			"width": 35,
+			"height": 35
+		},
+		"spriteSheet": {
+			"width": 35,
+			"height": 35
+		}
+	},
+	"hammer-spider": {
+		"date": "2016",
+		"time": 1451606400000,
+		"image": {
+			"path": "images/pixel-art/hammer-spider.png",
+			"width": 126,
+			"height": 71
+		},
+		"grid": {
+			"width": 70,
+			"height": 70,
+			"scale": 3
+		},
+		"thumbnail": {
+			"path": "images/pixel-art/hammer-spider.png",
+			"x": 9,
+			"y": 33,
+			"width": 24,
+			"height": 24
+		},
+		"spriteSheet": {
+			"width": 24,
+			"height": 24
+		}
+	},
+	"tiny-face": {
+		"date": "2016",
+		"time": 1451606400000,
+		"image": {
+			"path": "images/pixel-art/tiny-face.png",
+			"width": 23,
+			"height": 23
+		},
+		"grid": {
+			"width": 70,
+			"height": 70,
+			"scale": 3
+		},
+		"thumbnail": {
+			"path": "images/pixel-art/tiny-face.png",
+			"x": 0,
+			"y": 0,
+			"width": 23,
+			"height": 23
+		},
+		"spriteSheet": {
+			"width": 24,
+			"height": 24
 		}
 	},
 	"grapple-girl": {
@@ -333,6 +668,110 @@
 			"y": 0,
 			"width": 24,
 			"height": 24
+		},
+		"spriteSheet": {
+			"width": 24,
+			"height": 24
+		}
+	},
+	"rocky-platforms": {
+		"date": "November 2015",
+		"time": 1446350400000,
+		"image": {
+			"path": "images/pixel-art/rocky-platforms.png",
+			"width": 52,
+			"height": 78
+		},
+		"grid": {
+			"width": 70,
+			"height": 150,
+			"scale": 2
+		},
+		"thumbnail": {
+			"path": "images/pixel-art/rocky-platforms.png",
+			"x": 0,
+			"y": 1,
+			"width": 35,
+			"height": 75
+		},
+		"spriteSheet": {
+			"width": 35,
+			"height": 75
+		}
+	},
+	"pillars": {
+		"date": "November 2015",
+		"time": 1446350400000,
+		"image": {
+			"path": "images/pixel-art/pillars.png",
+			"width": 151,
+			"height": 67
+		},
+		"grid": {
+			"width": 150,
+			"height": 70,
+			"scale": 1
+		},
+		"thumbnail": {
+			"path": "images/pixel-art/pillars.png",
+			"x": 0,
+			"y": 0,
+			"width": 150,
+			"height": 67
+		},
+		"spriteSheet": {
+			"width": 150,
+			"height": 70
+		}
+	},
+	"rock-blocks": {
+		"date": "November 2015",
+		"time": 1446350400000,
+		"image": {
+			"path": "images/pixel-art/rock-blocks.png",
+			"width": 124,
+			"height": 52
+		},
+		"grid": {
+			"width": 150,
+			"height": 150,
+			"scale": 3
+		},
+		"thumbnail": {
+			"path": "images/pixel-art/rock-blocks.png",
+			"x": 73,
+			"y": 1,
+			"width": 50,
+			"height": 50
+		},
+		"spriteSheet": {
+			"width": 50,
+			"height": 50
+		}
+	},
+	"tree-progression": {
+		"date": "November 2015",
+		"time": 1446350400000,
+		"image": {
+			"path": "images/pixel-art/tree-progression.png",
+			"width": 250,
+			"height": 80
+		},
+		"grid": {
+			"width": 150,
+			"height": 230,
+			"scale": 4
+		},
+		"thumbnail": {
+			"path": "images/pixel-art/tree-progression.png",
+			"x": 214,
+			"y": 16,
+			"width": 21,
+			"height": 53
+		},
+		"spriteSheet": {
+			"width": 38,
+			"height": 58
 		}
 	},
 	"ghus": {
@@ -352,6 +791,10 @@
 			"path": "images/pixel-art/ghus.gif",
 			"x": 0,
 			"y": 0,
+			"width": 50,
+			"height": 50
+		},
+		"spriteSheet": {
 			"width": 50,
 			"height": 50
 		}
@@ -375,6 +818,10 @@
 			"y": 8,
 			"width": 89,
 			"height": 114
+		},
+		"spriteSheet": {
+			"width": 104,
+			"height": 130
 		}
 	},
 	"gazelle-gladiator": {
@@ -396,258 +843,10 @@
 			"y": 0,
 			"width": 24,
 			"height": 24
-		}
-	},
-	"rocky-platforms": {
-		"date": null,
-		"time": 0,
-		"image": {
-			"path": "images/pixel-art/rocky-platforms.png",
-			"width": 52,
-			"height": 78
 		},
-		"grid": {
-			"width": 70,
-			"height": 150,
-			"scale": 2
-		},
-		"thumbnail": {
-			"path": "images/pixel-art/rocky-platforms.png",
-			"x": 0,
-			"y": 1,
-			"width": 35,
-			"height": 75
-		}
-	},
-	"pillars": {
-		"date": null,
-		"time": 0,
-		"image": {
-			"path": "images/pixel-art/pillars.png",
-			"width": 151,
-			"height": 67
-		},
-		"grid": {
-			"width": 150,
-			"height": 70,
-			"scale": 1
-		},
-		"thumbnail": {
-			"path": "images/pixel-art/pillars.png",
-			"x": 0,
-			"y": 0,
-			"width": 150,
-			"height": 67
-		}
-	},
-	"rock-blocks": {
-		"date": null,
-		"time": 0,
-		"image": {
-			"path": "images/pixel-art/rock-blocks.png",
-			"width": 124,
-			"height": 52
-		},
-		"grid": {
-			"width": 150,
-			"height": 150,
-			"scale": 3
-		},
-		"thumbnail": {
-			"path": "images/pixel-art/rock-blocks.png",
-			"x": 73,
-			"y": 1,
-			"width": 50,
-			"height": 50
-		}
-	},
-	"tree-progression": {
-		"date": null,
-		"time": 0,
-		"image": {
-			"path": "images/pixel-art/tree-progression.png",
-			"width": 250,
-			"height": 80
-		},
-		"grid": {
-			"width": 150,
-			"height": 230,
-			"scale": 4
-		},
-		"thumbnail": {
-			"path": "images/pixel-art/tree-progression.png",
-			"x": 214,
-			"y": 16,
-			"width": 21,
-			"height": 53
-		}
-	},
-	"happy-tree": {
-		"date": null,
-		"time": 0,
-		"image": {
-			"path": "images/pixel-art/happy-tree.png",
-			"width": 49,
-			"height": 44
-		},
-		"grid": {
-			"width": 70,
-			"height": 70,
-			"scale": 2
-		},
-		"thumbnail": {
-			"path": "images/pixel-art/happy-tree.png",
-			"x": 6,
-			"y": 1,
-			"width": 35,
-			"height": 35
-		}
-	},
-	"monolith": {
-		"date": null,
-		"time": 0,
-		"image": {
-			"path": "images/pixel-art/monolith.png",
-			"width": 120,
-			"height": 120
-		},
-		"grid": {
-			"width": 230,
-			"height": 230,
-			"scale": 2
-		},
-		"thumbnail": {
-			"path": "images/pixel-art/monolith.png",
-			"x": 2,
-			"y": 2,
-			"width": 115,
-			"height": 115
-		}
-	},
-	"alabaster-giant": {
-		"date": null,
-		"time": 0,
-		"image": {
-			"path": "images/pixel-art/alabaster-giant.png",
-			"width": 141,
-			"height": 200
-		},
-		"grid": {
-			"width": 230,
-			"height": 390,
-			"scale": 2
-		},
-		"thumbnail": {
-			"path": "images/pixel-art/alabaster-giant.png",
-			"x": 12,
-			"y": 4,
-			"width": 115,
-			"height": 195
-		}
-	},
-	"sprouts": {
-		"date": null,
-		"time": 0,
-		"image": {
-			"path": "images/pixel-art/sprouts.png",
-			"width": 75,
-			"height": 35
-		},
-		"grid": {
-			"width": 150,
-			"height": 70,
-			"scale": 2
-		},
-		"thumbnail": {
-			"path": "images/pixel-art/sprouts.png",
-			"x": 0,
-			"y": 0,
-			"width": 75,
-			"height": 35
-		}
-	},
-	"test-tileset": {
-		"date": null,
-		"time": 0,
-		"image": {
-			"path": "images/pixel-art/test-tileset.png",
-			"width": 659,
-			"height": 173
-		},
-		"grid": {
-			"width": 70,
-			"height": 70,
-			"scale": 2
-		},
-		"thumbnail": {
-			"path": "images/pixel-art/test-tileset.png",
-			"x": 145,
-			"y": 134,
-			"width": 35,
-			"height": 35
-		}
-	},
-	"hammer-spider": {
-		"date": null,
-		"time": 0,
-		"image": {
-			"path": "images/pixel-art/hammer-spider.png",
-			"width": 126,
-			"height": 71
-		},
-		"grid": {
-			"width": 70,
-			"height": 70,
-			"scale": 3
-		},
-		"thumbnail": {
-			"path": "images/pixel-art/hammer-spider.png",
-			"x": 9,
-			"y": 33,
+		"spriteSheet": {
 			"width": 24,
 			"height": 24
-		}
-	},
-	"flower-bloom": {
-		"date": null,
-		"time": 0,
-		"image": {
-			"path": "images/pixel-art/flower-bloom.gif",
-			"width": 83,
-			"height": 63
-		},
-		"grid": {
-			"width": 150,
-			"height": 150,
-			"scale": 3
-		},
-		"thumbnail": {
-			"path": "images/pixel-art/flower-bloom.gif",
-			"x": 18,
-			"y": 5,
-			"width": 50,
-			"height": 50
-		}
-	},
-	"mortimer-bot": {
-		"date": null,
-		"time": 0,
-		"image": {
-			"path": "images/pixel-art/mortimer-bot.png",
-			"width": 36,
-			"height": 36
-		},
-		"grid": {
-			"width": 70,
-			"height": 70,
-			"scale": 2
-		},
-		"thumbnail": {
-			"path": "images/pixel-art/mortimer-bot.png",
-			"x": 0,
-			"y": 0,
-			"width": 35,
-			"height": 35
 		}
 	}
 }

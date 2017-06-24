@@ -15,36 +15,49 @@ const pixelArtSpriteSheets = loadJsonFile.sync('build/data/pixel-art-sprite-shee
 
 let pixelArtTemplateData = [];
 for (let k in pixelArt) {
+	let metadata = pixelArtMetadata[k];
 	let col = pixelArtGrid[config.grid.minColumns].locations[k].col;
 	let row = pixelArtGrid[config.grid.minColumns].locations[k].row;
 	let cols = pixelArt[k].grid.cols;
 	let rows = pixelArt[k].grid.rows;
 	let loc = pixelArtSpriteSheets.locations[k];
 	let spriteSheet = pixelArtSpriteSheets.spriteSheets[loc.spriteSheet];
-	let scale = pixelArtMetadata[k].grid.scale;
+	let scale = metadata.grid.scale;
 	let templateData = {
 		key: k,
 		title: pixelArt[k].title || 'Untitled',
 		hasTitle: pixelArt[k].title !== null,
 		description: pixelArt[k].description,
-		date: pixelArtMetadata[k].date,
-		time: pixelArtMetadata[k].time,
+		date: metadata.date,
+		time: metadata.time,
+		image: {
+			path: metadata.image.path,
+			width: metadata.image.width,
+			height: metadata.image.height
+		},
 		grid: {
 			x: col * (config.grid.tileSize + config.grid.tileGap),
 			y: row * (config.grid.tileSize + config.grid.tileGap),
-			width: pixelArtMetadata[k].grid.width,
-			height: pixelArtMetadata[k].grid.height
+			width: metadata.grid.width,
+			height: metadata.grid.height
 		},
 		thumbnail: {
-			image: 'images/' + spriteSheet.name + '.png',
+			path: 'images/' + spriteSheet.name + '.png',
 			x: -loc.x * scale,
 			y: -loc.y * scale,
 			width: spriteSheet.width * scale,
 			height: spriteSheet.height * scale,
 			pixelated: true,
-			color: pixelArt[k].background || '#fff'
+			color: pixelArt[k].background || '#fff',
 		}
 	};
+	if (pixelArt[k].animated) {
+		templateData.thumbnail.path = metadata.image.path;
+		templateData.thumbnail.x = -metadata.thumbnail.x * metadata.grid.scale;
+		templateData.thumbnail.y = -metadata.thumbnail.y * metadata.grid.scale;
+		templateData.thumbnail.width = metadata.image.width * metadata.grid.scale;
+		templateData.thumbnail.height = metadata.image.height * metadata.grid.scale;
+	}
 	pixelArtTemplateData.push(templateData);
 }
 pixelArtTemplateData.sort((a, b) => b.time - a.time);
